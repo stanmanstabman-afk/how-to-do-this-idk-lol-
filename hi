@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Awesome Website</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #0077ff, #00d4ff);
+    color: white;
+}
+
+header {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+.button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 15px 30px;
+    background: white;
+    color: #0077ff;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.button:hover {
+    background: #ddd;
+}
+
+section {
+    background: rgba(255,255,255,0.15);
+    margin: 30px;
+    padding: 25px;
+    border-radius: 15px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    opacity: 0.8;
+}
+</style>
+
+</head>
+<body>
+
+<header>
+    <h1>Welcome to My Website</h1>
+    <p>Built with HTML, CSS, and GitHub Pages.</p>
+    <a class="button" href="#about">Learn More</a>
+</header>
+
+<section id="about">
+    <h2>About</h2>
+    <p>This website is hosted for free using GitHub Pages.</p>
+</section>
+
+<section>
+    <h2>Features</h2>
+    <ul>
+        <li>📱 Mobile friendly</li>
+        <li>⚡ Fast loading</li>
+        <li>🎨 Modern design</li>
+        <li>🌍 Free hosting</li>
+    </ul>
+</section>
+
+<footer>
+    <p>© 2026 My Awesome Website</p>
+</footer>
+
+</body>
+</html>
